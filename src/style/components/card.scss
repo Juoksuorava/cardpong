@@ -8,12 +8,12 @@
   margin-left: -180px;
   @include transition (all, 0.25s, ease);
   @include bp-medium {
-    margin-left: -195px;
+    margin-left: -190px;
   }
   @include bp-small {
-    margin-left: -198px;    
+    margin-left: -192px;    
   }
   @include bp-mobileOnly {
-    margin-left: -200px;    
+    margin-left: -194px;    
   }
 }
