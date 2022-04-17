@@ -2,15 +2,10 @@
 
 
 .card-container {
-  height: 305px;
+  height: auto;
   width: 200px;
-  background-size: cover;
   position: relative;
-  border: 1px transparent;
-  border-radius: 10px;
   margin-left: -180px;
-  font-size: 20px;
-  text-align: center;
   @include transition (all, 0.25s, ease);
   @include bp-medium {
     margin-left: -195px;

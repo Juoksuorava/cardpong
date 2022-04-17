@@ -36,7 +36,7 @@ class App extends Component {
     const newCards = cards.filter(element => element.index !== item.index)
     this.setState({ cards: newCards })
     let drawn = this.state.drawn;
-    drawn.length < 27 &&
+    drawn.length < 34 &&
     drawn.push(item);
     this.setState({ drawn: drawn })
   }
@@ -51,7 +51,7 @@ class App extends Component {
 
     return (
       <div style={{ width: '100%' }}>
-        <div style={{ display: 'flex', justifyContent: 'center', margin: '40px auto 0px 180px', height: 284 }}>
+        <div style={{ display: 'flex', justifyContent: 'center', margin: '40px auto 0px 180px', height: 240 }}>
           {cards && cards.map((card, index) => {
             return (
               <div className='animated slideInDown' key={index}>
@@ -61,7 +61,7 @@ class App extends Component {
           })}
         </div> 
         <Actions shuffle={this.shuffle} drawCard={this.drawCard} flip={this.flip} deck={deck} />
-        <div style={{ display: 'flex', justifyContent: 'center', margin: '40px auto 0 px 180px', height: 284 }}>
+        <div style={{ display: 'flex', justifyContent: 'center', margin: '40px auto 0 px 180px', height: 240 }}>
           {drawn && drawn.map((card, index) => {
             return (
               <div className='animated slideInUp' key={index}>

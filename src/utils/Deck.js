@@ -104,8 +104,35 @@ export const deck = [
         "index": '26',
     },
     {
-        "card": 'lucky',
+        "card": 'kadet',
         "index": '27',
     },
-    
+    {
+        "card": 'kadet',
+        "index": '28',
+    },
+    {
+        "card": 'kadet',
+        "index": '29',
+    },
+    {
+        "card": 'double',
+        "index": '30',
+    },
+    {
+        "card": 'double',
+        "index": '31',
+    },
+    {
+        "card": 'double',
+        "index": '32',
+    },
+    {
+        "card": 'lucky',
+        "index": '33',
+    },
+    {
+        "card": 'evil',
+        "index": '34',
+    },
 ]

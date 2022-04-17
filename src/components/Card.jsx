@@ -9,6 +9,9 @@ import pew from '../style/images/pew.png'
 import explosion from '../style/images/explosion.png'
 import skipall from '../style/images/skipall.png'
 import lucky from '../style/images/lucky.png'
+import evil from '../style/images/evil.png'
+import kadet from '../style/images/kadet.png'
+import double from '../style/images/double.png'
 
 import '../style/components/card.scss'
 
@@ -33,6 +36,12 @@ const Card = (props) => {
                 return effect = skipall
             case 'lucky':
                 return effect = lucky
+            case 'kadet':
+                return effect = kadet
+            case 'evil':
+                return effect = evil
+            case 'double':
+                return effect = double
             default:
                 return effect
         }
@@ -41,11 +50,15 @@ const Card = (props) => {
     if (front === true) {
         const effect = getEffect(card)
         return (
-            <div className='card-container' style={{ backgroundImage: `url(${effect})`}}></div>
+            <div className='card-container'>
+                <img src={`${effect}`} alt={effect} />
+            </div>
         )
     } else {
         return (
-            <div className='card-container' style={{ backgroundImage: `url(${back})`}}></div>
+            <div className='card-container'>
+                <img src={`${back}`} alt={back} />
+            </div>
         )
     }
 }
