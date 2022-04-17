@@ -2,8 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import back from '../style/images/back.png'
-import testi from '../style/images/testi.png'
-import backtobasics from '../style/images/backtobasics.png'
+import basics from '../style/images/basics.png'
+import skip from '../style/images/skip.png'
+import miina from '../style/images/miina.png'
+import pew from '../style/images/pew.png'
+import skipall from '../style/images/skipall.png'
 
 import '../style/components/card.scss'
 
@@ -14,10 +17,16 @@ const Card = (props) => {
     const getEffect = (card) => {
         let effect
         switch(card) {
-            case 'testi':
-                return effect = testi
-            case 'backtobasics':
-                return effect = backtobasics
+            case 'basics':
+                return effect = basics
+            case 'skip':
+                return effect = skip
+            case 'miina':
+                return effect = miina
+            case 'pew':
+                return effect = pew
+            case 'skipall':
+                return effect = skipall
             default:
                 return effect
         }
