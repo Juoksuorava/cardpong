@@ -35,8 +35,9 @@ class App extends Component {
     const item = cards[Math.floor(Math.random()*cards.length)]
     const newCards = cards.filter(element => element.index !== item.index)
     this.setState({ cards: newCards })
-    let drawn = this.state.drawn
-    drawn.length < 23 && drawn.push(item)
+    let drawn = this.state.drawn;
+    drawn.length < 27 &&
+    drawn.push(item);
     this.setState({ drawn: drawn })
   }
 

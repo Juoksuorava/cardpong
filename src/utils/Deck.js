@@ -80,16 +80,32 @@ export const deck = [
         "index": '20',
     },
     {
-        "card": 'skipall',
+        "card": 'explosion',
         "index": '21',
     },
     {
-        "card": 'skipall',
+        "card": 'explosion',
         "index": '22',
     },
     {
-        "card": 'skipall',
+        "card": 'explosion',
         "index": '23',
+    },
+    {
+        "card": 'skipall',
+        "index": '24',
+    },
+    {
+        "card": 'skipall',
+        "index": '25',
+    },
+    {
+        "card": 'skipall',
+        "index": '26',
+    },
+    {
+        "card": 'lucky',
+        "index": '27',
     },
     
 ]

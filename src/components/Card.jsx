@@ -6,7 +6,9 @@ import basics from '../style/images/basics.png'
 import skip from '../style/images/skip.png'
 import miina from '../style/images/miina.png'
 import pew from '../style/images/pew.png'
+import explosion from '../style/images/explosion.png'
 import skipall from '../style/images/skipall.png'
+import lucky from '../style/images/lucky.png'
 
 import '../style/components/card.scss'
 
@@ -25,8 +27,12 @@ const Card = (props) => {
                 return effect = miina
             case 'pew':
                 return effect = pew
+            case 'explosion':
+                return effect = explosion
             case 'skipall':
                 return effect = skipall
+            case 'lucky':
+                return effect = lucky
             default:
                 return effect
         }
