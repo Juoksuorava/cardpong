@@ -13,7 +13,8 @@ class App extends Component {
     this.state = {
       cards: deck,
       drawn: [],
-      front: false
+      front: false,
+      iterator: 84
     };
   }
 
@@ -26,19 +27,19 @@ class App extends Component {
       array[currentIndex] = array[r]
       array[r] = temp
     }
-    this.setState({ cards: array, drawn : [] })
+    this.setState({iterator: 84, cards: array, drawn : [] })
     return array
   }
 
   drawCard = () => {
     let cards = this.state.cards
-    const item = cards[Math.floor(Math.random()*cards.length)]
+    const item = cards[this.state.iterator]
     const newCards = cards.filter(element => element.index !== item.index)
     this.setState({ cards: newCards })
     let drawn = this.state.drawn;
-    drawn.length < 34 &&
+    drawn.length < 85 &&
     drawn.push(item);
-    this.setState({ drawn: drawn })
+    this.setState({ iterator: this.state.iterator -1, drawn: drawn })
   }
 
   flip = () => {

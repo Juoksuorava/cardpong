@@ -68,71 +68,275 @@ export const deck = [
         "index": '17',
     },
     {
-        "card": 'pew',
+        "card": 'rightylefty',
         "index": '18',
     },
     {
-        "card": 'pew',
+        "card": 'rightylefty',
         "index": '19',
     },
     {
-        "card": 'pew',
+        "card": 'rightylefty',
         "index": '20',
     },
     {
-        "card": 'explosion',
+        "card": 'rightylefty',
         "index": '21',
     },
     {
-        "card": 'explosion',
+        "card": 'rightylefty',
         "index": '22',
     },
     {
-        "card": 'explosion',
+        "card": 'trick',
         "index": '23',
     },
     {
-        "card": 'skipall',
+        "card": 'trick',
         "index": '24',
     },
     {
-        "card": 'skipall',
+        "card": 'trick',
         "index": '25',
     },
     {
-        "card": 'skipall',
+        "card": 'trick',
         "index": '26',
     },
     {
-        "card": 'kadet',
+        "card": 'trick',
         "index": '27',
     },
     {
-        "card": 'kadet',
+        "card": 'backhand',
         "index": '28',
     },
     {
-        "card": 'kadet',
+        "card": 'backhand',
         "index": '29',
     },
     {
-        "card": 'double',
+        "card": 'backhand',
         "index": '30',
     },
     {
-        "card": 'double',
+        "card": 'backhand',
         "index": '31',
     },
     {
-        "card": 'double',
+        "card": 'backhand',
         "index": '32',
     },
     {
-        "card": 'lucky',
+        "card": 'doit',
         "index": '33',
     },
     {
-        "card": 'evil',
+        "card": 'doit',
         "index": '34',
+    },
+    {
+        "card": 'doit',
+        "index": '35',
+    },
+    {
+        "card": 'doit',
+        "index": '36',
+    },
+    {
+        "card": 'doit',
+        "index": '37',
+    },
+    {
+        "card": 'pomppu',
+        "index": '38',
+    },
+    {
+        "card": 'pomppu',
+        "index": '39',
+    },
+    {
+        "card": 'pomppu',
+        "index": '40',
+    },
+    {
+        "card": 'pomppu',
+        "index": '41',
+    },
+    {
+        "card": 'pomppu',
+        "index": '42',
+    },
+    {
+        "card": 'pew',
+        "index": '43',
+    },
+    {
+        "card": 'pew',
+        "index": '44',
+    },
+    {
+        "card": 'pew',
+        "index": '45',
+    },
+    {
+        "card": 'explosion',
+        "index": '46',
+    },
+    {
+        "card": 'explosion',
+        "index": '47',
+    },
+    {
+        "card": 'explosion',
+        "index": '48',
+    },
+    {
+        "card": 'skipall',
+        "index": '49',
+    },
+    {
+        "card": 'skipall',
+        "index": '50',
+    },
+    {
+        "card": 'skipall',
+        "index": '51',
+    },
+    {
+        "card": 'kadet',
+        "index": '52',
+    },
+    {
+        "card": 'kadet',
+        "index": '53',
+    },
+    {
+        "card": 'kadet',
+        "index": '54',
+    },
+    {
+        "card": 'double',
+        "index": '55',
+    },
+    {
+        "card": 'double',
+        "index": '56',
+    },
+    {
+        "card": 'double',
+        "index": '57',
+    },
+    {
+        "card": 'amogus',
+        "index": '58',
+    },
+    {
+        "card": 'amogus',
+        "index": '59',
+    },
+    {
+        "card": 'amogus',
+        "index": '60',
+    },
+    {
+        "card": 'raisio',
+        "index": '61',
+    },
+    {
+        "card": 'raisio',
+        "index": '62',
+    },
+    {
+        "card": 'raisio',
+        "index": '63',
+    },
+    {
+        "card": 'pls',
+        "index": '64',
+    },
+    {
+        "card": 'pls',
+        "index": '65',
+    },
+    {
+        "card": 'pls',
+        "index": '66',
+    },
+    {
+        "card": 'backstage',
+        "index": '67',
+    },
+    {
+        "card": 'backstage',
+        "index": '68',
+    },
+    {
+        "card": 'backstage',
+        "index": '69',
+    },
+    {
+        "card": 'dealer',
+        "index": '70',
+    },
+    {
+        "card": 'dealer',
+        "index": '71',
+    },
+    {
+        "card": 'dealer',
+        "index": '72',
+    },
+    {
+        "card": 'valot1',
+        "index": '73',
+    },
+    {
+        "card": 'valot1',
+        "index": '74',
+    },
+    {
+        "card": 'valot1',
+        "index": '75',
+    },
+    {
+        "card": 'valot0',
+        "index": '76',
+    },
+    {
+        "card": 'valot0',
+        "index": '77',
+    },
+    {
+        "card": 'valot0',
+        "index": '78',
+    },
+    {
+        "card": 'pesapallo',
+        "index": '79',
+    },
+    {
+        "card": 'pesapallo',
+        "index": '80',
+    },
+    {
+        "card": 'pesapallo',
+        "index": '81',
+    },
+    {
+        "card": 'lucky',
+        "index": '82',
+    },
+    {
+        "card": 'evil',
+        "index": '83',
+    },
+    {
+        "card": 'heaven',
+        "index": '84',
+    },
+    {
+        "card": 'hell',
+        "index": '85',
     },
 ]

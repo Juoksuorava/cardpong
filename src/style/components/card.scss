@@ -5,15 +5,15 @@
   height: auto;
   width: 200px;
   position: relative;
-  margin-left: -180px;
+  margin-left: -190px;
   @include transition (all, 0.25s, ease);
   @include bp-medium {
-    margin-left: -190px;
+    margin-left: -192px;
   }
   @include bp-small {
-    margin-left: -192px;    
+    margin-left: -194px;    
   }
   @include bp-mobileOnly {
-    margin-left: -194px;    
+    margin-left: -196px;    
   }
 }
