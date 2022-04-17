@@ -52,7 +52,7 @@ class App extends Component {
 
     return (
       <div style={{ width: '100%' }}>
-        <div style={{ display: 'flex', justifyContent: 'right', margin: '40px auto 0px 180px', height: 240 }}>
+        <div style={{ display: 'flex', justifyContent: 'center', margin: '40px auto 0px 180px', height: 240 }}>
           {cards && cards.map((card, index) => {
             return (
               <div className='animated slideInDown' key={index}>
@@ -62,7 +62,7 @@ class App extends Component {
           })}
         </div> 
         <Actions shuffle={this.shuffle} drawCard={this.drawCard} flip={this.flip} deck={deck} />
-        <div style={{ display: 'flex', justifyContent: 'right', margin: '40px auto 0 px 180px', height: 240 }}>
+        <div style={{ display: 'flex', justifyContent: 'center', margin: '40px auto 0 px 180px', height: 240 }}>
           {drawn && drawn.map((card, index) => {
             return (
               <div className='animated slideInUp' key={index}>
