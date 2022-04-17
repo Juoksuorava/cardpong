@@ -2,7 +2,7 @@
 
 Simple card deck and ruleset for Beer Pong.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live version: http://cardpong.herokuapp.com/.
 
 ## Available Scripts
 
