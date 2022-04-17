@@ -4,6 +4,10 @@ export const deck = [
         "index": '1',
     },
     {
+        "card": 'testi',
+        "index": '2',
+    },
+    {
         "card": 'backtobasics',
         "index": '3',
     },
@@ -11,4 +15,5 @@ export const deck = [
         "card": 'backtobasics',
         "index": '4',
     },
+    
 ]

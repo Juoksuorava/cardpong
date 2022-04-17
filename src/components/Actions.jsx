@@ -5,9 +5,9 @@ const Actions = (props) => {
     
     return (
         <div style={{ margin: '40px auto', textAlign: 'center' }}>
-            <button onClick={() => props.shuffle(props.deck)}> Shuffle </button>
-            <button onClick={() => props.drawCard()}> Draw card </button>
-            <button onClick={() => props.flip()}> Flip </button>
+            <button onClick={() => props.shuffle(props.deck)}> Sekoita uusi pakka </button>
+            <button onClick={() => props.drawCard()}> Nosta kortti </button>
+            <button onClick={() => props.flip()}> Käännä pakka </button>
         </div>
     )
 

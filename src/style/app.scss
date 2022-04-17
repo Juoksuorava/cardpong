@@ -1,0 +1,33 @@
+.rules-container {
+    background-color: cadetblue;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 5%;
+}
+
+.rules-title {
+    text-align: center;
+    font-size: x-large;
+    border: 1px solid;
+    font-weight: bold;
+    padding: 1%;
+}
+
+li:nth-child(odd) {
+    background-color: cornflowerblue;
+}
+
+.rules-list {
+    line-height: 200%;
+    border: 1px solid;
+
+    strong {
+        font-weight: bold;
+    }
+
+    italic {
+        font-style: italic;
+        font-weight: lighter;
+        font-size: small;
+    }
+}

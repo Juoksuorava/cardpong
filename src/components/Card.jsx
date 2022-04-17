@@ -26,19 +26,7 @@ const Card = (props) => {
     if (front === true) {
         const effect = getEffect(card)
         return (
-            <div className='card-container'>
-                <div style={{ position: 'absolute', top: 5, left: 5 }}>
-                    <div> {card} </div>
-                    <img src={effect} alt='suit-symbol'/>
-                </div>
-                <div>
-                <img src={effect} alt='suit-symbol' style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}/>
-                </div>
-                <div style={{ position: 'absolute', bottom: 5, right: 5, transform: 'rotate(-180deg)' }}>
-                    <div> {effect} </div>
-                    <img src={effect} alt='suit-symbol'/>
-                </div>
-            </div>
+            <div className='card-container' style={{ backgroundImage: `url(${effect})`}}></div>
         )
     } else {
         return (
