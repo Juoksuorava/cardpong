@@ -90,9 +90,9 @@ class App extends Component {
             <li> <strong> 3. Double Trouble </strong> - Kumpikin pelaaja heittää kaksi kertaa. </li>
             <li> <strong> 3. Raisionkaari </strong> - Kumpikin pelaaja heittää pallon yksi polvi maassa. </li>
             <li> <strong> 3. Pesä pong </strong> - Toinen pelaajista heittää pallon lukkarin tapaan ilmaan, ja toinen pelaajista lyö sen kädellään/käsivarrellaan. Rooleja vaihdetaan tiimin toista heittoa varten. </li>
-            <li> <strong> 3. Yrittäkää edes </strong> - os vastustajat ovat heittäneet enemmän kuppeja tähän mennessä, saatte kolmannen heittoyrityksen </li>
+            <li> <strong> 3. Yrittäkää edes </strong> - Jos vastustajat ovat heittäneet enemmän kuppeja tähän mennessä, saatte kolmannen heittoyrityksen </li>
             <li> <strong> 3. Backstage </strong> - Tiimi laittaa kappaleen “Rebel Yell” (esittäjä Billy Idol) soimaan niin kovaa kuin mahdollista heittovuoron ajaksi. </li>
-            <li> <strong> 3. Olkaa hei inhimillisiä sit </strong> - astustajatiimi valitsee kortin kääntäneen tiimin heittotyylin (siis esim. pompun kautta, vasemmalla kädellä). </li>
+            <li> <strong> 3. Dealer's choice </strong> - Vastustajatiimi valitsee kortin kääntäneen tiimin heittotyylin (siis esim. pompun kautta, vasemmalla kädellä). </li>
             <li> <strong> 3. Valot päälle </strong> - Kumpikin pelaaja heittää pallon räpäyttämättä silmiään. </li>
             <li> <strong> 3. Valot pois </strong> - Kumpikin pelaaja heittää pallon silmät kiinni. </li>
             <li> <strong> 4. Lucky Reformation </strong> - Kortin nostanut tiimi valitsee vastustajan kupeille haluamansa muodostelman. </li>
